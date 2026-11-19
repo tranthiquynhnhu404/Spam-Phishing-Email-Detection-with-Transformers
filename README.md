@@ -1,7 +1,7 @@
 # Project 5 — Spam / Phishing Email Detection with Transformers
-**Team 24** | Natural Language Processing & Applied Deep Learning
+**Team 5** | Natural Language Processing & Applied Deep Learning
 
-[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/nhatthanh123456/Spam-Phishing-Email-Detection-with-Transformers)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)]
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-green.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.2%2B-EE4C2C.svg?logo=pytorch)](https://pytorch.org/)
 [![Transformers](https://img.shields.io/badge/HuggingFace-Transformers-yellow.svg)](https://huggingface.co/)
