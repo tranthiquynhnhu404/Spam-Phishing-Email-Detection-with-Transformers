@@ -1,0 +1,20 @@
+# Python byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+.pytest_cache/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+
+# Temporary / raw download files
+data/enron_spam_data.zip

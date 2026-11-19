@@ -1,0 +1,58 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "🚀 1. Launch Web Dashboard (Streamlit App)",
+            "type": "python",
+            "request": "launch",
+            "module": "streamlit",
+            "args": [
+                "run",
+                "${workspaceFolder}/app.py"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "📊 2. Evaluate & Benchmark Models (evaluate.py)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/evaluate.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "🔍 3. Run LIME Feature Attribution (explain_lime.py)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/explain_lime.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "🤖 4. Train Naive Bayes Baseline (train_nb.py)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/train_nb.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "⚡ 5. Fine-tune DistilBERT Transformer (train_distilbert.py)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/train_distilbert.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "📥 6. Ingest & Partition Corpus (prepare_data.py)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/prepare_data.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "📈 7. Export Loss Curve Figure (plot_loss_curve.py)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/plot_loss_curve.py",
+            "console": "integratedTerminal"
+        }
+    ]
+}
